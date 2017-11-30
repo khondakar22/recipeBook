@@ -40,12 +40,12 @@ export class RecipesPage {
     this.navCtrl.push(RecipePage, {recipe: recipe, index: index});
   }
 
-  /*onShowOptions(event: MouseEvent) {
+  onShowOptions(event: MouseEvent) {
     const loading = this.loadingCtrl.create({
       content: 'Please wait...'
     });
     const popover = this.popoverCtrl.create(DatabaseOptionsPage);
-    popover.present({ev: event});P
+    popover.present({ev: event});
     popover.onDidDismiss(
       data => {
         if (!data) {
@@ -91,14 +91,14 @@ export class RecipesPage {
         }
       }
     );
-  }*/
+  }
 
-  /*private handleError(errorMessage: string) {
-    const alert = this.alertCtrl.create({
-      title: 'An error occurred!',
-      message: errorMessage,
-      buttons: ['Ok']
-    });
-    alert.present();
-  }*/
+ private handleError(errorMessage: string) {
+     const alert = this.alertCtrl.create({
+       title: 'An error occurred!',
+       message: errorMessage,
+       buttons: ['Ok']
+     });
+     alert.present();
+   }
 }
