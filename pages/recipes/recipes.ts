@@ -45,7 +45,7 @@ export class RecipesPage {
       content: 'Please wait...'
     });
     const popover = this.popoverCtrl.create(DatabaseOptionsPage);
-    popover.present({ev: event});
+    popover.present({ev: event});P
     popover.onDidDismiss(
       data => {
         if (!data) {
