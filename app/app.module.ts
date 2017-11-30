@@ -17,7 +17,7 @@ import {SignupPage} from '../pages/signup/signup';
 import {SigninPage} from '../pages/signin/signin';
 import {AuthService} from '../services/auth';
 import {DatabaseOptionsPage} from '../pages/database-options/database-options';
-import {SLOptionsPage} from '../pages/sl-opitons/sl-options';
+/*import {SLOptionsPage} from '../pages/sl-opitons/sl-options';*/
 
 @NgModule({
   declarations: [
@@ -30,7 +30,7 @@ import {SLOptionsPage} from '../pages/sl-opitons/sl-options';
     SignupPage,
     SigninPage,
     DatabaseOptionsPage,
-    SLOptionsPage
+    /*SLOptionsPage*/
   ],
   imports: [
     BrowserModule,
@@ -48,7 +48,7 @@ import {SLOptionsPage} from '../pages/sl-opitons/sl-options';
     SignupPage,
     SigninPage,
     DatabaseOptionsPage,
-    SLOptionsPage
+   /* SLOptionsPage*/
   ],
   providers: [
     StatusBar,
